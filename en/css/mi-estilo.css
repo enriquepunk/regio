@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/* CSS Document */
+section#bsf_sectionid_1 {
+  background: url(../assets/img/sections/products/bsf/benefits/sectionid_1.jpg) 50% 50% no-repeat;
+  }
+section#bsf_sectionid_2 {
+  background: url(../assets/img/sections/products/bsf/benefits/sectionid_2.jpg) 50% 50% no-repeat;
+    background-color:#f1f1f1;
+  }
+section#bsf_sectionid_3 {
+  background: url(../assets/img/sections/products/bsf/benefits/sectionid_3.jpg) 50% 50% no-repeat;
+  }
+section#bsf_sectionid_4 {
+  background: url(../assets/img/sections/products/bsf/benefits/sectionid_4.jpg) 50% 50% no-repeat;
+    background-color:#f1f1f1;
+  }
+section#bsf_sectionid_5 {
+  background: url(../assets/img/sections/products/bsf/benefits/sectionid_6.jpg) 50% 50% no-repeat;
+  }
+.footer_buffer {
+  display: none;
+}
+.sticky-wrapper, #LEAD_FORM, .product_documents, .product_suite
+{ 
+	display:none !important;
+	}
+h2 {	
+ color:	#1D386C !important; 
+ font-weight: 300;
+ text-align:center;
+  margin: 0 0 15px !important;
+}
+
+input, select, textarea {
+      background: none repeat scroll 0 0 #fff !important;
+    border: 1px solid #ccc !important;
+    color: #000 !important;
+    font-size: 14px !important;
+    margin-bottom: 3px !important;
+}
+
+.ns_button._blue._no_hover {
+    background: none repeat scroll 0 0 #0075c9 !important;
+    margin-right: 10px !important;
+    width: 113px !important;
+}
