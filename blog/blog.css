@@ -1,0 +1,143 @@
+body *{font-family: 'Lato', helvetica, Arial, sans-serif;}
+.blog-content{
+	padding:20px 0;
+}
+#main-content{
+
+  border-right: 1px solid #1D386C;
+ }
+
+#main-content header{background-image:  none; width: auto;border:none;position: relative;}
+#sidebar-outer, .sidebar-dentro{   margin-left: 40px;}
+
+  .shadow {
+   background: none!important; 
+   padding: 0!important; 
+  margin-top:0!important; 
+}
+
+#main-content p{margin-top: 10px;}
+#main-content h1,#main-content a{
+color:#1D386C !important; 
+  font-weight: lighter;
+  text-decoration: none; 
+font-family: 'Lato', helvetica, Arial, sans-serif;}
+#main-content a:hover{text-decoration: none;}
+.destacada img{  width: 90%;
+  max-height: 300px; border:5px solid #5978AE;}
+.container2 {
+  position: relative;
+  width: 960px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+aside#recent-posts-2 {
+  margin-bottom: 40px;
+}
+
+aside#archives-2 {
+  border-top: 1px solid #5978AE;
+  padding-top: 10px;
+}
+.read-more,.regresar-boton{  background-color: #5978AE;
+  width: 87px;
+  height: 30px;
+  color: #fff;
+  padding: 5px 10px;
+  text-align: center;}
+
+.more-link span,.regresar-boton a{color: #fff!important;}
+
+.textura-bg{  background: url(http://www.gruporegio.mx/images/fondo.png) repeat;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#454545', endColorstr='#181818', GradientType=0);
+  color: #fff;
+  min-height: 1px;
+  border-top: 1px solid #5f6366;
+  border-bottom: 1px solid #FFF}
+.navbar-default {
+ background-color: transparent!important;
+ border-color: transparent!important; 
+}
+ul.nav.navbar-nav.navbar-right li a {  font: 1em 'Lato', helvetica, arial, sans-serif;
+  font-weight: 500;
+  color: #FFF;
+  text-transform: uppercase;}
+ul.nav.navbar-nav.navbar-right li {
+    margin: 5px 1px 0 1px;
+}
+.navbar{margin-bottom: 0!important;}
+.logo{margin-top: 20px;}
+.logo img{display: block!important;   margin: 0 auto;}
+.pie1{}
+
+@media (max-width: 767px) {
+  div#etc {
+  margin-left: 0px!important;
+  margin-top: 10px;
+  float: left!important;
+}
+#main-content {
+  border:none!important;
+}
+}
+
+/*-------------estilos copiados------*/
+div#etc {
+  margin-left: 45px;
+  margin-top: 10px;
+  font-family: 'Lato', helvetica, Arial, sans-serif;
+}
+#homepage_info {
+  padding-top: 15px;
+  border-width: 1px 0 0 0;
+  border-style: solid;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  min-height: 92px;
+  clear: both;
+  background-color: #333;
+  background: url(../assets/img/fondopie.png) repeat;
+  color: #fff;
+}
+input{
+  border: 1px solid #FFF;
+  color: #fff;
+  font-size: 12px;
+  margin-bottom: 3px;
+  padding: 5px;
+  width: 100%;
+  background: #43669d;
+  margin: 0em;
+  font: normal normal normal 13.3333330154419px/normal Arial;
+  color: initial;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  height: 30px;
+  margin-bottom: 4px!important;
+}.homepage_events {
+  text-align: center;
+  padding-top: 0;
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+  box-sizing: border-box;
+  padding-left: 20px;
+}
+.boton-almacenamiento {
+    background: none repeat scroll 0 0 #60a369 !important;
+  border: medium none !important;
+  border-radius: 2px !important;
+  color: #fff !important;
+  cursor: pointer !important;
+  display: inline-block !important;
+  float: right!important;
+  margin-top: 3px;
+  font-size: 12px;
+  margin-right: 5px;
+  padding: 4px 8px;
+}

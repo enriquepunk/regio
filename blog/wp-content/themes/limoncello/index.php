@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
     <div class="row">
-        <div class="index col-sm-9" id="main-content">
+        <div class="index col-sm-8" id="main-content">
            <div class="titulo_blog blanco sancreek-font size36 text-center">
                     
                 </div>
@@ -12,11 +12,11 @@
                         while ( have_posts() ) {
                                 the_post(); 
                                 $numpost++;
-                                if ( $numpost % 2 == 1){echo '<div class="izquierda" >';}
+                               
                                 echo '<div class="item shadow post" >';
                                     get_template_part( 'content', get_post_format() );
                                 echo '</div>';
-                                if ( $numpost % 2 == 1){echo '</div>';}
+                                echo'<hr>';
                         } // end while
                 } // end if
 

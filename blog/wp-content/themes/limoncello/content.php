@@ -14,8 +14,8 @@
                             <div class="entry-title col-sm-12 text-left">
                                     <a href="<?php the_permalink(); ?>" class=""  rel="bookmark"><h1><?php the_title(); ?></h1></a>
                             </div>
-                            <div class="col-sm-12">
-								<?php the_post_thumbnail(); ?>
+                            <div class="col-sm-12 destacada">
+								<?php the_post_thumbnail() ?>
 							</div>
 
                            
@@ -39,12 +39,11 @@
 		<?php else : ?>
 		<div class="entry-content justificado clearfix">
 
-			<?php the_content( __( '(Leer más) ', 'twentytwelve' ) ); ?>
+			<?php the_content( __( '<div class="read-more"><span>Leer más</span></div> ', 'twentytwelve' ) ); ?>
 			
 			<?php wp_link_pages( array( 'before' => '<div class="page-links">' . __( 'Pages:', 'twentytwelve' ), 'after' => '</div>' ) ); ?>
 						
 		</div><!-- .entry-content -->
-		<hr class="linea-blog">
 		<?php endif; ?>
 
 	</article><!-- #post -->

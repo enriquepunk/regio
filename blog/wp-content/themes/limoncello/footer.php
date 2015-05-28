@@ -1,75 +1,171 @@
 </div>
-              <footer id="footer" class="black-bg">
-        <div class="container">
-          <div class="row">
 
-            <div class="col-sm-12">
-              <div class="row footer-menu" style="position:relative">
-                <div class="col-sm-8 hidden-xs">
-                  <ul  class="list-inline text-left">
-                    <li class="home"><a href="../index.php">INICIO</a></li>
-                    <li class="about-us"><a href="../tedx.php">TED<sup>X</sup></a></li>
-                    <li class="admissions"><a href="../ponentes.php">PONENTES</a></li>
-                    <li class="student-life"><a href="../aliados.php">ALIADOS</a></li>
-                    <li class="contact"><a href="index.php">MEDIA/PRENSA</a></li>
-                    <li class="contact"><a href="../acerca-de-php">ACERCA DE</a></li>
-                    <li class="contact"><a href="../contacto.php">CONTACTO</a></li>
-                    <li class="contact"><a href="../faqs.php">FAQS</a></li>
-                  </ul>                
-                </div>
-                <div class="col-sm-3 col-xs-12 pull-right buttonBoxRight">
-                  <div class="social-footer text-center">
-                    
-                    <ul  class="list-inline text-right">
-                    <li class="home"><a href="index.php">Politicas de privaciadad</a></li>
+            
+<section id="homepage_info" style=" min-height:200px;" class="">
 
-                    </ul>
+      <div class="col-sm-10 col-sm-offset-1 pie1 hidden-xs" >
+      <div class="row">
+              <div  id="unopie1" class=" col-sm-8 col-xs-12 eight columns omega" id="homepage_customers" style="">
+                <div class="row">
+                  <div class="col-sm-4 text-center" style="">
+                    <a href="../bienvenidos.php" class="url-internas">
+                        <img src="../images/regio.png" style="width:44px !important; " />
+                      </a>
+                      <div style="font-size: 12px; text-align: center;">
+                        <a href="bienvenidos.php" style="color:#FFF;font-size:18px;">
+                            Bienvenidos
+                          </a>
+                         <br>A Grupo Regio.
+                      </div>
                   </div>
+                  <div class="col-sm-4 text-center" style="">
+                    <a href="../impresion-para-grupos-expos-y-convenciones.php" class="url-internas">
+                        <img src="../images/grupos.png" style="width:44px !important;" />
+                      </a>
+                    <div style="font-size: 12px;">
+                        <a href="impresion-para-grupos-expos-y-convenciones.php" style="color:#FFF;font-size:18px;">
+                            Grupos y Convenciones
+                        </a>
+                          <br>Confia en nosotros la imagen de<br> tu evento y empresa.
+                      </div> 
+                  </div>    
+                  <div class="col-sm-4 text-center" style="">
+                    <a href="productos-proyectos-e-impresion.php" class="url-internas">
+                        <img src="../images/portafolio.png" style="width:44px !important;" />
+                      </a>
+                      <div style="font-size: 12px;">
+                        <a href="productos-proyectos-e-impresion.php" style="color:#FFF;font-size:18px;">
+                            Portafolio
+                          </a>
+                         <br>Conoce nuestra experiencia y nuestros trabajos realizados.
+                      </div>
+                  </div>  
+                  <div style="clear:both"></div>
                 </div>
-
-              </div>
+            </div>
+            <div id="unopie2" class="col-sm-3 col-xs-12 eight columns alpha homepage_events" style="margin-botom:10px;">
+              <div style="" class="row">
+                <h4>Inventario en Línea:</h4>
+                <form style="" class="col-sm-12 col-xs-12" target="_new" name="form2" id="form2" action="http://regio.mymarketlogic.com/regio/default.aspx" method="post">
+                  <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTE3MjM0ODA0MA9kFgICAw9kFgICAQ9kFgICAQ8PFgIeB1Zpc2libGVoZBYCAgkPPCsACQBkZKXvhDW/5Cv7P9bNeaX5jfmSNOpM" />
+                  <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWBAKroMX7BALwiajGDwL/1pGKCAL8iti3ChqT9lhdF7BKsFUa3mqarmSEzXdT" />
+                  <input name="Login1$txtLogin" type="text" id="Login1_txtLogin" onblur="if (this.value == "") {this.value = "Usuario";}" onfocus="if (this.value == "Usuario") {this.value = "";}" value="Usuario" />
+                  <input name="Login1$txtPassword" type="password" id="Login1_txtPassword" onblur="if (this.value == "") {this.value = "Contraseña";}" onfocus="if (this.value == "Contraseña") {this.value = "";}" value="Contraseña"/>
+                  <a href="../inventario_en_linea_regio.pdf" class="pull-right" target="_blank" style="background: none repeat scroll 0px 0px rgb(213, 74, 78); color: rgb(255, 255, 255); font-family: Arial; font-size: 11px; float: right; margin-top: 2px; padding: 6px; border-radius: 3px;" class="botondescarga">Manual de Envío</a>    
+                  <button type="submit" name="Login1$btnLogin" id="Login1_btnLogin" style="" class="boton-almacenamiento pull-right">Entrar</button>
+                </form>
             </div>
           </div>
-        </div>
+                
 
-              <hr class="footer-hr">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12">
-              <div class="row">
-                <div class="col-sm-6 col-xs-12 "><p>Todos los Derechos &reg; Reservados TED<sup>x</sup></p></div>
-                <div class="col-sm-3 col-xs-12 pull-right ">
-                  <span>Contáctanos en:</span>
-                    <span class="flaticon-facebook29"></span>
-                          <span class="flaticon-instagram7"></span>
-                          <span class="flaticon-mail59"></span>
-                       </div>
-                       <div class="col-sm-12 col-xs-12" style="margin-top:10px;">
-                  <p class="size8">¿Qué es TED<sup>x</sup>? En  el  mismo  espíritu de difundir ideas, TED  ha creado un programa llamado TED<sup>x</sup>. TED<sup>x</sup>  es un  programa  de  eventos  locales,  sin fines de lucro, organizados  de  forma  independiente que  reúnen  a  una  audiencia  en una experiencia similar a TED en donde se combinan videos de charlas TED y oradores  en  vivo para  disparar  una  conversación  y  conexión  profunda  entre  los  asistentes. Nuestro evento es TED<sup>x</sup>Cancún, donde x significa evento organizado de forma independiente bajo una licencia TED.  </p>
-                  <p class="size8">What is TEDx? In the spirit of ideas worth spreading, TED has created a program called TED<sup>x</sup>. TED<sup>x</sup> is a program of self-organized events that bring people together to share a TED-like experience. At TEDxAmsterdam, live speakers will spark deep discussion and connection. The TED Conference provides general guidance for the TED<sup>x</sup> program, but individual TED<sup>x</sup> events are self-organised.  </p>
-                  <p class="size8">TEDx program: www. ted.com/tedx  </p>
-
-
+                <div style="clear:both"></div>
                 </div>
-              </div>
-            </div>
+        </div>  
+        <div  style="background: none repeat scroll 0% 0% rgb(29, 56, 108); float:left; padding-top: 10px; padding-bottom:0px;">
+    <div class="col-sm-10 col-xs-12 col-sm-offset-1" id="unopie6" style="">
+    <div class="row">
+          <div class="col-sm-3  col-xs-12 text-center" id="unopie4" style="float:left;">
+            <a href="../imprenta-ecologica.php" class="url-internas" style=""><img src="../images/fsc_footer.png" style="width:88px; margin-top:13px;" /></a>
+             <a href="../imprenta-esr.php" class="url-internas"><img src="../images/esr.png" style="" /></a>
+           </div>
+           <div class="col-sm-7  col-xs-12 text-center" id="unopie3" style="text-align:center; margin-top:10px;">
+              <a href="../index.php" style="color:#FFF; margin-right:35px;">INICIO</a>
+                <img src="../images/points.png" style="height: 20px ! important; margin-bottom: -5px;" />
+              <a href="../contactanos.php#cancun" style="color:#FFF; margin-right:35px;">CANCUN</a>
+              <img src="../images/points.png" style="height: 20px ! important; margin-bottom: -5px;" />
+              <a href="../contactanos.php#miami" style="color:#FFF; margin-right:35px;">MIAMI</a>
+            <img src="../images/points.png" style="height: 20px ! important; margin-bottom: -5px;" />
+            <a href="../contactanos.php#puntacana" style="color:#FFF; margin-right:35px;">PUNTA CANA</a>
+            <a href="../contactanos.php" style="color:#FFF; margin-right:35px;">CONTACTO</a>
+              <p style="margin-top:15px; line-height:16px; font-weight:normal; font-size:11px;"> © 2015. Grupo Regio. Todos los Derechos Reservados.
+                </p>
+              <p>
+                  <a class='youtube' href="http://www.youtube.com/embed/LpvphxwU3mo?autoplay=true&rel=0&amp;wmode=transparent" style="margin-right:10px;"><img src="../images/video1.png" /></a>
+                  <a class='youtube' href="http://www.youtube.com/embed/y2yPHrYnJQo?autoplay=true&rel=0&amp;wmode=transparent"><img src="../images/video2.png" /></a>
+                </p>
           </div>
+            <div class="col-sm-2  col-xs-12 text-center" id="unopie5" style="float:right; margin-top:20px; margin-bottom:10px;">
+            	<div class="row">
+            		<div class="col-sm-4 col-xs-4">
+	              		<a href="https://www.facebook.com/GpoRegio" target="_blank"><img  src="../images/facebook.png" style=""/></a>
+	              	</div>
+	              	<div class="col-sm-4 col-xs-4">
+	                	<a href="https://twitter.com/gruporegio" target="_blank" style="margin-left:5px;"><img  src="../images/twitter.png" style=""/></a>
+	                </div>
+	                <div class="col-sm-4 col-xs-4">
+	                	<a href="https://www.youtube.com/channel/UCud9LvAfwWXpolHP0SXaQSQ/videos" target="_blank" style="margin-left:5px;"><img src="../images/youtube.png" style="max-width:32px;"/></a>
+    				</div>
+    			</div>      
+          </div>
+           <div style="clear:both"></div>
+           </div>
+      </div>   
+    </div>
+</section>
+
+<link rel="stylesheet" href="../css/colorbox.css" />
+<script src="../js/jquery.colorbox.js"></script>
+<script>
+  $(document).ready(function()
+  {
+    $(".youtube").colorbox({iframe:true, innerWidth:640, innerHeight:390});   
+  });
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-63289336-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+                    </section>
+                </div>
+            </div>
         </div>
-        </footer>
- <!-- /container -->
+      </div>
+  </div>
+  <script src="../js/vendor/mwe/classie.js"></script>
+<script src="../js/vendor/sidebar/mlpushmenu.js"></script>
+<script>
+var polyfilter_scriptpath = 'js/vendor/mwe/';
 
-<!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
-     http://chromium.org/developers/how-tos/chrome-frame-getting-started -->
-<!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+new mlPushMenu( document.getElementById( 'mp-menu' ), document.getElementById( 'trigger' ), {
+    type : 'cover'
+});
 
-<!-- Grab Google CDN's jQuery. fall back to local if necessary -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<script>window.jQuery || document.write("<script src='static/js/jquery-1.11.2.min.js'>\x3C/script>")</script>
+</script>
+<script src="../js/vendor/jquery/waypoints.min.js"></script>
+<script src="../js/vendor/jquery/waypoints-sticky.min.js"></script>
+<script src="../js/vendor/mwe/cssParser.js"></script>
 
-<!-- this is where we put our custom functions -->
-<!-- don't forget to concatenate and minify if needed -->
-<script src="../static/js/bootstrap.min.js"></script>
-<script src="../static/js/functions.js"></script>
+
+<script src="../js/pardot.js"></script>
+<script src="../js/vendor/jquery/jquery.infieldlabel.min.js"></script>
+
+
+
+<script src="../js/vendor/jquery/jquery.cookie.js"></script>
+<script src="../js/vendor/jquery/jquery.xdomainrequest.js"></script>
+
+ <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-48277819-19', 'auto');
+  ga('send', 'pageview');
+</script> <script src="../js/vendor/jquery/divscroll/jquery-ui-1.8.23.custom.min.js" type="text/javascript"></script>
+
+  <script src="../js/vendor/jquery/jquery.carouFredSel-6.2.1-packed.js"></script>
+  <script src="../js/vendor/jquery/jquery.mousewheel.min.js"></script>
+  <script src="../js/vendor/jquery/jquery.touchSwipe.min.js"></script>
+  <script src="../js/vendor/jquery/jquery.transit.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="../js/vendor/jquery/jquery.ba-throttle-debounce.min.js"></script>
+
 </body>
 </html>
 

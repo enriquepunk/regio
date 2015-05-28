@@ -1,9 +1,9 @@
 <?php get_header(); ?>
 
-<div id="main-content" class="">
+<div id="" class=" row">
     
 
-    <div class="col-sm-9" id="dentro">
+    <div class="col-sm-8 dentro" id="main-content">
 
         <?php while ( have_posts() ) : the_post(); ?>
 
@@ -18,7 +18,7 @@
                        
                         
                 </nav><!-- .nav-single -->
-                <div class="col-sm-3 regresar boton"><a href="javascript:history.back()">REGRESAR</a><?php if(function_exists('social_ring_show')){ social_ring_show();} ?></div>
+                <div class="regresar-boton"><a href="javascript:history.back()" style="color:#fff!important;">Regresar</a><?php if(function_exists('social_ring_show')){ social_ring_show();} ?></div>
 
                 <div class="fb-comments" data-href="<?php the_permalink(); ?>"  data-width="100%" data-num-posts="10"></div><!--<?php comments_template( '', true ); ?>-->
                 
