@@ -32,6 +32,10 @@
 <body >
 
 <header class="textura-bg">
+<?php
+if ( 'es' === $GLOBALS['q_config']['language'])
+              {
+                  echo'
       <div class="container">
         <div class="row">
           <div class="col-sm-2 col-sm-offset-1 col-xs-12 text-center logo"> 
@@ -59,6 +63,7 @@
                     <span style="font-size:14px; font-weight: normal;">
                       <a href="/en" style="color:#FFF;">English</a>
                     </span>
+                    
                   </div>
               </div>
           </div>
@@ -96,10 +101,80 @@
 
         </div>
       </div>
+';}
+if ( 'en' === $GLOBALS['q_config']['language'])
+              {
+                  echo'
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-2 col-sm-offset-1 col-xs-12 text-center logo"> 
+            <a href="../index.php"><img class="margin-25-0 img-responsive" src="../assets/img/layout/logo/header_logo_2c.png" width="135" alt="" style="display:block"></a>
+          </div>
+          <div class="col-sm-8 col-xs-12 text-center" id="etc">
+            <div class="row" style="">
+                <div id="phone_number" class="col-sm-12 col-xs-12">
+                  <img src="../assets/img/phone.png" style="width: 32px; margin-bottom: -11px;" alt="telefono" title="Icono telefono" />
+                      <span style="font-size:14px; font-weight: normal;">01(998)-881-8100</span>
 
+                      <img alt="tour" title="Icono Tour Virtual" src="../images/tour.png" style="width: 18px; margin-bottom: -5px; margin-left:15px; margin-right:5px;" />
+                    <span style="font-size:14px;  font-weight: normal;">
+                        <a href="tour-virtual.php" style="color:#FFF; ">Tour Virtual</a>
+                      </span>
+                      <img src="../images/transfer.png" style="width: 30px; margin-bottom: -5px; margin-left:15px; margin-right:5px;" />
+                    <span style="font-size:14px; font-weight: normal;">
+                      <a href="https://gruporegio.wetransfer.com/" style="color:#FFF;" target="_blank">Regio Transfer</a>
+                      </span>
+                      <img src="../images/cloud.png" style="width: 30px; margin-bottom: -5px; margin-left:15px; margin-right:5px;" />
+                    <span style="font-size:14px; font-weight: normal;">                
+                        <a href="https://nube.gruporegio.mx" style="color:#FFF;" target="_blank">Regio Cloud</a>
+                      </span>
+                      <img src="images/es.png" style="width: 21px; margin-bottom: -5px; margin-left: 13px; margin-right: 1px;">
+                      <span style="font-size:14px; font-weight: normal;">
+                        <a href="http://www.gruporegio.mx/" style="color:#FFF;">Español</a>
+                      </span>
+                    
+                  </div>
+              </div>
+          </div>
+          <div class="col-sm-8 col-xs-12 text-center margin-top-10">
+            <nav class="navbar  navbar-default black-bg ">
+                <div class="borde-rojo-bottom">
+                  <div class="navbar-header visible-xs">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"></a>
+                    
+                  </div>
+                  <div id="navbar" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                      <li class="home"><a href="../en/index.php">HOME</a></li>
+                      <li class="about-us"><a href="../en/tedx.php">SERVICES</a></li>
+                      <li class="admissions"><a href="../en/ponentes.php">EXPERIENCE</a></li>
+                      <li class="student-life"><a href="../en/aliados.php">RESOURCES</a></li>
+                      <li class="student-life"><a href="../en/index.php">CORPORATE</a></li>
+                      <li class="student-life"><a href="../en/contacto.php">CONTACT US</a></li>
+                      <li class="student-life"><a href="../en/contacto.php">BLOG</a></li>
+
+                      
+                    </ul>
+                    
+                  </div><!--/.nav-collapse -->
+
+                </div>
+              </nav>
+          </div>
+
+        </div>
+      </div>
+';}
+ ?> 
       </header>
 
-  
+
 
       <div class="container white-bg blog-content">
                         
